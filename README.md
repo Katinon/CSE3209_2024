@@ -18,12 +18,12 @@ Compiler : GCC 9.4.0
 │   ├── libdouble.a
 │   └── main_static
 └── dynamic
-    ├── main.c
-    ├── double_to_ieee754.c
-    ├── double_to_ieee754.h
-    ├── double_to_ieee754.o
-    ├── libdouble.so
-    └── main_dynamic
+│   ├── main.c
+│   ├── double_to_ieee754.c
+│   ├── double_to_ieee754.h
+│   ├── double_to_ieee754.o
+│   ├── libdouble.so
+│   └── main_dynamic
 ├── README.md
 ```
 
