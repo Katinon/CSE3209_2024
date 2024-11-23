@@ -1,5 +1,5 @@
 # double to IEEE 754 Converter
-본 문서는 Static Linking, Dynamic Linking, dlsym을 사용한 Runtime Linking에 관한 구현 내용을 포함합니다.
+본 문서는 Static Linking, Dynamic Linking, Runtime Linking에 관한 구현 내용을 포함합니다.
 
 C언어에서 IEEE 754 표준에 따라, 부동소수점 수를 2진수 표현으로 변환하는 함수를 디자인하고 링킹하는 과정을 설명합니다.
 
@@ -16,7 +16,7 @@ Compiler : GCC 9.4.0
 │   ├── double_to_ieee754.o
 │   ├── libdouble.a
 │   └── main_static
-└── dynamic
+├── dynamic
 │   ├── main.c
 │   ├── double_to_ieee754.c
 │   ├── double_to_ieee754.h
@@ -156,5 +156,6 @@ int main() {
 4) 현재 디렉토리를 동적 라이브러리 검색 경로로 만들어 환경변수를 설정합니다.   
    `$ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH`   
 5) main_runtime 파일을 실행합니다.
-   ![image](https://github.com/user-attachments/assets/120fa657-5885-4e14-9789-5b5abc5e21ed)
+  ![image](https://github.com/user-attachments/assets/b03ada35-f03a-4f38-88ac-a5a36fd9fd4e)
+
 
