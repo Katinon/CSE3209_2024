@@ -149,4 +149,5 @@ int main() {
 4) 현재 디렉토리를 동적 라이브러리 검색 경로로 만들어 환경변수를 설정합니다.   
    `$ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH`   
 5) main_runtime 파일을 실행합니다.
-![image.png](/api/v1/image/1732358227737-de4c8a.png)
+   ![image](https://github.com/user-attachments/assets/120fa657-5885-4e14-9789-5b5abc5e21ed)
+
